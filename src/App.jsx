@@ -1,8 +1,9 @@
+import { Page1 } from "./templatesPages"
 function App() {
 
   return (
     <>
-      
+      <Page1 />
     </>
   )
 }
