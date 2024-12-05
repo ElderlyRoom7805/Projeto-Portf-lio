@@ -1,0 +1,66 @@
+.sectionTech {
+    background-color: var(--grey-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-sectionTech {
+    max-width: 1024px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.h2-sectionTech {
+    margin-left: 10px;
+    color: var(--grey-1);
+    font-family: var(--font-family);
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+}
+.blockOfCards {
+    width: 1014px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.technologiesCard {
+    width: 280px;
+    height: 230px;
+    gap: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.infoCard {
+    font-family: var(--font-family);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    color: var(--grey-1);
+
+    width: auto;
+    height: 56px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+
+}
+.buttonTechnologie {
+    color: var(--grey-3);
+    text-decoration: none;
+    width: fit-content;
+    font-size: var(--font-size-4);
+    font-family: var(--font-family);
+    color: var(--grey-3);
+    font-weight: var(--font-weight-2);
+    margin-top: 10px;
+}
+.buttonTechnologie:hover {
+    color: var(--grey-4);   
+}

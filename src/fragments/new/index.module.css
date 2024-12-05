@@ -1,0 +1,19 @@
+.div {
+    background-color: var(--color-primary);
+    width: 43px;
+    height: 22px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 20;
+    top: 88px;
+    left: 133px;
+}
+.div h3 {
+    font-family: var(--font-family);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-2);
+    color: var(--grey-1);
+}

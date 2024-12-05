@@ -1,4 +1,5 @@
-import { Page1 } from "./templatesPages"
+import { Page1 } from "./templatesPages";
+import './styles/global.css';
 function App() {
 
   return (

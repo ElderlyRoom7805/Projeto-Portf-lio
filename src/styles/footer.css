@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: var(--grey-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.divFooter {
+    width: 1004px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+.leftDivFooter {
+    width: 522px;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.rightDivFooter {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+    gap: 10px;
+}

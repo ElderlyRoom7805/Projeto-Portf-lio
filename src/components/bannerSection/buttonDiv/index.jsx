@@ -1,8 +1,9 @@
+import styles from "./index.module.css";
 export const ButtonDiv = () => {
     return(
-        <div>
-            <button type="button">See Projects</button>
-            <button type="button"></button>
+        <div className={ styles.div }>
+            <button type="button" className={ styles.seeButton }>See Projects</button>
+            <button type="button" className={ styles.gitButton }></button>
         </div>
     )
 }

@@ -1,0 +1,21 @@
+.sectionBanner {
+    margin-top: 73px;
+    min-height: 650px;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/header-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    gap: 200px;
+}
+.leftBanner{
+    margin-left: 10px;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    flex-direction: column;
+}

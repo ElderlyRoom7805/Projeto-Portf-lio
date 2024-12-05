@@ -1,0 +1,44 @@
+.div {
+    width: 224px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.seeButton {
+    background-color: var(--color-primary);
+    width: 160px;
+    height: 48px;
+    padding: 0px 32px 0px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--color-primary);
+    font-size: var(--font-size-4);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-2);
+    color: var(--grey-2);
+}
+.seeButton:hover {
+    background-color: var(--color-primary-50);
+    border: 2px solid var(--color-primary-50);
+    cursor: pointer;
+}
+
+.gitButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: var(--grey-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-image: url("../../../assets/git-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gitButton:hover {
+    filter: invert(.99);
+    border: 1px solid var(--grey-1);
+}

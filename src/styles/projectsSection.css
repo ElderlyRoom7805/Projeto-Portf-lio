@@ -1,0 +1,33 @@
+.sectionProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-sectionProjects {
+    width: 1024px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 15px;
+    
+}
+.projectCard {
+    width: 350px;
+    height: 230px;
+    gap: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+}
+.buttonProjectBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
+}

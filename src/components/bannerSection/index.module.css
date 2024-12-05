@@ -1,0 +1,22 @@
+.h1Banner {
+    font-size: 38px;
+    font-weight: var(--font-weight-1);
+    font-family: var(--font-family);
+    color: var(--grey-1);
+    width: 607px;
+    height: 94px;
+    top: 188px;
+    left: 238px;
+}
+.pBanner {
+    color: var(--grey-3);
+    font-family: var(--font-family);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-3);
+    text-align: left;
+    width: 538px;
+    height: 56px;
+    top: 314px;
+    left: 238px; 
+
+}

@@ -1,0 +1,76 @@
+
+.img {
+    width: 69px;
+    height: 69px;
+    border-radius: 557.61px;
+}
+.h2 {
+    color: var(--grey-2);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+}
+.p {
+    color: var(--grey-3);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-5);
+}
+
+.butonFacebook {
+    width: 48px;
+    height: 48px;
+    border-radius: 150px;
+    border: 1px solid var(--facebook);
+    background-color: var(--facebook);
+    background-image: url(../../assets/facebook-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.butonInsta {
+    width: 48px;
+    height: 48px;
+    border-radius: 150px;
+    border: 1px solid var(--instagram);
+    background-color: var(--instagram);
+    background-image: url(../../assets/instagram-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.butonlinkdin {
+    width: 48px;
+    height: 48px;
+    border-radius: 150px;
+    border: 1px solid var(--linkdin);
+    background-color: var(--linkdin);
+    background-image: url(../../assets/linkedin-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.butonlinkdin:hover {
+    border: 1px solid var(--linkdin);
+    background-color: var(--grey-1);
+    background-image: url(../../assets/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.butonFacebook:hover {
+    border: 1px solid var(--facebook);
+    background-color: var(--grey-1);
+    background-image: url(../../assets/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.butonInsta:hover {
+    border: 1px solid var(--instagram);
+    background-color: var(--grey-1);
+    background-image: url(../../assets/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
